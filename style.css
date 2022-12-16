@@ -1,0 +1,261 @@
+*{
+  margin:0;
+  padding:0;
+  font-family:verdana;
+}
+.body
+{
+		background-image: url(img/BG1.png);
+		width: 100%;
+		height:100vh;
+
+}
+.body2
+{
+		background-image: url(img/BG2.png);
+		width: 100%;
+		height:100vh;
+
+}
+.body3
+{
+		background-image: url(img/BG3.png);
+		width: 100%;
+		height:100vh;
+
+}
+.body_contact
+{
+		background-image: url(img/BG3.png);
+		width: 100%;
+		height:100vh;
+
+}
+.center_il
+{
+    display: inline;
+    padding: 15px;
+    position: relative;top: 60px;
+    text-decoration: none;
+    
+}
+.nav_link
+{
+    text-decoration: none;
+    color: white;
+    
+}
+.nav_aliment
+{
+    display: flex;justify-content: space-around;
+    position: relative;right: 250px;
+}
+.logo_set
+{
+    position: relative;top: 60px;left: 90px;
+    color: white;
+}
+.text_bg
+{
+	color: white;
+	display: flex;justify-content: space-around;align-content: center;
+	position: relative; top: 280px;
+	font-size: 50px;
+}
+.text_bg2
+{
+	color: white;
+	display: flex;justify-content: space-around;align-content: center;
+	position: relative; top: 200px;
+	font-size: 50px;
+}
+.text_bg3
+{
+	color: white;
+	display: flex;justify-content: space-around;align-content: center;
+	position: relative; top: 210px;
+	margin: 5px;
+	
+}
+.text2_bg
+{
+	color: white;
+	display: flex;justify-content: space-around;align-content: center;
+	position: relative; top: 510px;
+
+}
+.text15_bg
+{
+	color: white;
+	display: flex;justify-content: space-around;align-content: center;
+	position: relative; top: 620px;
+
+}
+.text4_bg
+{
+	color: white;
+	display: flex;justify-content: space-around;align-content: center;
+	position: relative; top: 640px;
+
+}
+.text3_bg
+{
+	color: white;
+	display: flex;justify-content: space-around;align-content: center;
+	position: relative; top: 450px;
+
+}
+.text10_bg
+{
+	color: white;
+	display: flex;justify-content: space-around;align-content: center;
+	position: relative;top: 130px;
+
+}
+.HOVER_LINKS:hover
+{
+	font-weight: bold;
+}
+.crd
+{
+	border-radius: 20px;
+	border-bottom-right-radius: 20%;
+	border: 1px solid white;
+	width: 18%;
+	margin-left: 170px;
+	position: relative; top: 100px;
+}
+.crd1
+{
+	border-radius: 20px;
+	border-bottom-right-radius: 20%;
+	border: 1px solid white;
+	width: 18%;
+	margin-left: 460px;
+	position: relative; bottom: 238px;
+}
+.crd2
+{
+	border-radius: 20px;
+	border-bottom-right-radius: 20%;
+	border: 1px solid white;
+	width: 18%;
+	margin-left: 750px;
+	position: relative; bottom: 578px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+  width: 221%;
+  height: 160px;
+  border-radius: 2px;
+  outline-color: white;
+}
+.button5 {background-color: black;} /* Black */
+.button {
+  background-color: black; 
+  border: none;
+  color: white;
+  padding: 15px 52px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.logo_web
+{
+	color: white;
+	text-decoration: none;
+}
+/*contact us*/
+.container22{
+  display: flex;
+  justify-content: center;
+  align-items:center !important;
+  height: 100vh;
+}
+.signUpBtn
+{
+	margin-left: 100px;
+}
+.form{
+  width: 350px;
+  height: 450px;
+  background-color: rgba(41, 39, 39, 0.3);
+  box-shadow: 0 5px 30px black;
+}
+.btn button {
+  padding: 3px;
+  margin: 30px 0px 40px 30px;
+  border-style: none;
+  background-color: transparent;
+  color: beige;
+  font-size: 18px;
+  font-weight: 550;
+}
+.formGroup{
+  display: flex;
+  justify-content: center;
+}
+.formGroup input{
+  border: none;
+  width: 80%;
+  border-bottom: 2px solid white;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: transparent;
+  color: white;
+}
+input:focus {
+  outline: none !important;
+  border-bottom: 2px solid white;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+}
+::placeholder {
+  color: white;
+}
+.checkBox{
+  display: flex;
+  justify-content: center;
+  margin: 16px!important;
+}
+
+#checkbox{
+  margin-right: 10px;
+  height: 15px;
+  width: 15px;
+}
+.text{
+  color: rgb(199, 197, 197);
+  font-size: 13px;
+}
+.btn2{
+  padding: 10px;
+  width: 150px;
+  border-radius: 20px;
+  background-color: white;
+  border-style: none;
+  color: black;
+  font-weight: 600;
+}
+
+.video
+{
+	display: flex;justify-content: space-around;align-items: center;
+	margin-top: 120px;
+}
